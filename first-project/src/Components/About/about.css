@@ -1,0 +1,28 @@
+.aboutSection {
+  background-color: #fafafa;
+}
+
+.aboutSubSection {
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+
+.aboutHeading {
+  font-size: 3rem;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  /* font-family: Comic Sans MS, Comic Sans, cursive; */
+}
+
+.aboutSubHeading {
+  padding-top: 27px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  text-align: center;
+  width: 40%;
+  /* border: 1px solid #000; */
+  margin: auto;
+  line-height: 200%;
+}

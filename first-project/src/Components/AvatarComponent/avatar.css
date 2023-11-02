@@ -1,0 +1,21 @@
+.avatar {
+  padding-left: 40px;
+  padding-top: 23px;
+  display: flex;
+  gap: 15px;
+}
+
+@media only screen and (max-width: 768px) {
+  .avatar {
+    padding-left: 20px;
+  }
+}
+
+.avatarName:hover {
+  cursor: pointer;
+  color: #793fdf;
+}
+.avatarName {
+  font-weight: bold;
+  padding-top: 10px;
+}

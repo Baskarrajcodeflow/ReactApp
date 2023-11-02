@@ -1,0 +1,78 @@
+.homePage {
+  /* height: 450px; */
+  padding-top: 150px;
+  /* margin: auto; */
+  /* display: flex; */
+  /* justify-content: center; */
+  /* align-items: center; */
+  padding-bottom: 150px;
+}
+
+.section1 {
+  background: linear-gradient(
+      to right,
+      rgba(245, 245, 245, 0.8),
+      rgba(245, 245, 245, 0.8)
+    ),
+    url("https://d33wubrfki0l68.cloudfront.net/daac8858fd4a0ccea44f59dfd079c3c16c263f33/c157c/assets/svg/common-bg.svg");
+}
+
+.headingClass {
+  font-size: 4rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+.textClass {
+  padding-top: 27px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  text-align: center;
+  /* width: 90%; */
+  /* border: 1px solid #000; */
+  margin: auto;
+  line-height: 200%;
+}
+
+@media only screen and (max-width: 768px) {
+  .headingClass {
+    font-size: 3rem;
+    font-weight: 700;
+    text-align: center;
+    margin-top: -80px;
+  }
+  .textClass {
+    font-size: 0.9rem;
+  }
+  .Btn {
+    font-weight: 400;
+  }
+}
+
+.bgBtn {
+  padding-top: 47px;
+  font-size: 1rem;
+  font-weight: 600;
+  text-align: center;
+  /* width: 90%; */
+  /* border: 1px solid #000; */
+  margin: auto;
+  line-height: 200%;
+}
+
+.btn {
+  background-color: #393646;
+  padding: 1rem;
+  color: white;
+  border-radius: 5px;
+  width: 250px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  font-weight: 700;
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+}
+
+.btn:hover {
+  background-color: black;
+}

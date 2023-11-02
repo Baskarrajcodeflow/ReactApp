@@ -1,0 +1,40 @@
+.header {
+  background-color: white;
+  height: 90px;
+}
+
+ul {
+  padding-top: 31px;
+  float: right;
+  margin-right: 75px;
+  font-weight: bold;
+}
+
+.menuBar {
+  padding-top: 30px;
+  float: right;
+  margin-right: 35px;
+}
+
+@media only screen and (min-width: 750px) {
+  .menuBar {
+    display: none;
+  }
+}
+
+li a {
+  padding: 28px;
+}
+
+li a:hover {
+  cursor: pointer;
+  color: #793fdf;
+}
+
+/*  */
+
+@media only screen and (max-width: 750px) {
+  ul {
+    display: none;
+  }
+}
